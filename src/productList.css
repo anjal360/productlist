@@ -1,0 +1,36 @@
+.product-container{
+     margin-top: 5rem;
+     border-radius: 2rem;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    min-height: 70vh;
+  }
+  
+  .product-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+  }
+  
+  .product-wrapper{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   font-size: 1.5rem;
+   color: rgb(29, 29, 29);
+    width: 30%;
+   
+  }
+  .product-wrapper  h2{
+  font-size: 2rem;
+  }
+  .price{
+    font-size: 2rem;
+    color :rgb(172, 11, 3)
+  }
